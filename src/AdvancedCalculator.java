@@ -10,7 +10,11 @@ public class AdvancedCalculator extends Calculator {
     }
 
     void radical() {
-        rezultat = Math.sqrt(rezultat);
+        if (rezultat < 0) {
+            throw new RuntimeException("Nu se poate");
+        } else {
+            rezultat = Math.sqrt(rezultat);
+        }
     }
 
     void exponent() {
