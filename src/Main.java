@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
-        // Calculator c = new Calculator();
-
     /*
+
+        Calculator c = new Calculator();
         c.adunare(7);
         c.inmultire(2);
         c.radical();
