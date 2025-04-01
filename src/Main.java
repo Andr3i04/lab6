@@ -6,8 +6,8 @@ public class Main {
 
         ac.adunare(7);
         ac.inmultire(2);
-        ac.inmultire(5);
         ac.radical();
+        ac.exponent();
 
         System.out.println(ac.getRezultat());
 
