@@ -5,31 +5,32 @@ public class Calculator {
         rezultat = 0;
     }
 
-    public Calculator(double x){
+    public Calculator(double x) {
         rezultat = x;
+    }
+
+    void adunare(double x) {
+        rezultat += x;
+    }
+
+    void scadere(double x) {
+        rezultat -= x;
+    }
+
+    void inmultire(double x) {
+        rezultat *= x;
+    }
+
+    void impartire(double x) {
+        if (x == 0) {
+            throw new RuntimeException("Impartire la 0!!!!!");
+        } else {
+            rezultat /= x;
+        }
     }
 
     public double getRezultat() {
         return rezultat;
     }
 
-    void adunare(double n){
-        rezultat +=n;
-    }
-
-    void scadere(double n){
-        rezultat-=n;
-    }
-
-    void inmultire(double n){
-        rezultat *=n;
-    }
-
-    void impartire(double n){
-        if(n==0){
-            throw new RuntimeException("Impartire la 0!!!!!");
-        }else {
-            rezultat /=n;
-        }
-    }
 }

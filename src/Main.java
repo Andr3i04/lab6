@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-    Calculator c = new Calculator();
+        // Calculator c = new Calculator();
+        AdvancedCalculator ac = new AdvancedCalculator();
 
-    c.adunare(7);
-    c.inmultire(2);
+        ac.adunare(7);
+        ac.inmultire(2);
+        ac.inmultire(5);
+        ac.radical();
 
-    System.out.println(c.getRezultat());
+        System.out.println(ac.getRezultat());
 
     }
 }
