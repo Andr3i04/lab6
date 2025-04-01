@@ -11,5 +11,6 @@ public class Main {
         System.out.println(ac.getRezultat());
     */
         System.out.println(new Calculator(3).scadere(2).adunare(7).inmultire(2).getRezultat());
+
     }
 }
